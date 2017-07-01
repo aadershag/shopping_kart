@@ -1,0 +1,103 @@
+body {
+  padding-top: 50px;
+}
+.loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url('preloader.gif') 50% 50% no-repeat rgb(0,0,0);
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.game_image{
+	height: 200px;
+}
+.descrip{
+	padding-left: 30px;
+}
+.descrip_body{
+	padding-bottom: 30px;
+}
+.cart-block{
+	background-color: black;
+    color: azure;
+    padding: 5px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+.boxbox{
+	    margin-left: auto;
+    margin: auto;
+    margin-top: 20px;
+}
+.qty{
+	    max-width: 100px;
+    margin-bottom: 20px;
+}
+.game-title{
+	    background-color: black;
+    color: wheat;
+    text-align: center;
+    padding: 2px;
+    margin-bottom: 10px;
+    font-family: serif;
+    font-size: large;
+}
+.game-price{
+	    position: relative !important;
+    background-color: burlywood;
+    padding: 4px;
+    font-size: x-large;
+    float: right;
+    text-align: right;
+    margin-top: -50px;
+    margin-left: 215px;
+    font-family: fantasy;
+}
+.cart-block{
+  border-radius: 10px;
+  padding: 10px;
+}
+.game-price1{
+      position: absolute;
+    background-color: burlywood;
+    padding: 4px;
+    font-size: x-large;
+    float: right;
+    text-align: right;
+    margin-left: 215px;
+    font-family: fantasy;
+}
+.panel-default > .panel-heading {
+    color: antiquewhite;
+    background-color: black;
+    font-family: initial;
+    }
+   .footer{
+   	    background-color: black;
+    color: aliceblue;
+   }
+   .body{
+    background: gainsboro;   }
+
+   .total_form{
+   	padding: 10px;
+   }
+   .subtn{
+   	font-family: initial;
+    color: azure;
+    background-color: black;
+    border-color: #adadad;
+   }
+   .h1{ font-family: cursive;}
+  .red{border-radius: 5px; background: #e92429; letter-spacing: 0.07em; color:white;box-shadow: 0 0 0 rgba(0, 0, 0, 0.4); transition: all 0.3s linear; font-family: cursive;}
+  .hover:hover {color: black; background: white;}
+
+  .carousel .slide{
+    position:relative !important;
+  }
